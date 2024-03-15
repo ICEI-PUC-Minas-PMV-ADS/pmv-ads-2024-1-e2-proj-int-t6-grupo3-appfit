@@ -1,23 +1,23 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO: ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`DISCIPLINA: DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
 
-`SEMESTRE`
+`SEMESTRE: 2º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto atual visa elaborar um aplicativo fitness que irá auxiliar os usuários a acompanhar seus treinos, definir metas e acessar planos de refeições personalizados. Com uma interface simples e funcional.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* FERNANDO ANÍSIO GOULART PEREIRA
+* FELIPE DE PINHO DIAS ARMOND
+* LUCAS DI VITO FRAGA
+* JOÃO HENRIQUE PERDIGÃO SALLES
 
 ## Orientador
 
-* Nome completo do professor 1
+* BERNARDO JEUNON DE ALENCAR
 
 ## Instruções de utilização
 
