@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# FIT APP
 
-`CURSO: ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
+`CURSO: Analise de Desenvolvimento de Sistemas`
 
-`DISCIPLINA: DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
+`DISCIPLINA: Desenvolvimento de Uma Aplicação Interativa`
 
-`SEMESTRE: 2º SEMESTRE`
+`SEMESTRE: 2º Periodo`
 
 O projeto atual visa elaborar um aplicativo fitness que irá auxiliar os usuários a acompanhar seus treinos, definir metas e acessar planos de refeições personalizados. Com uma interface simples e funcional.
 
 ## Integrantes
 
-* FERNANDO ANÍSIO GOULART PEREIRA
-* FELIPE DE PINHO DIAS ARMOND
-* LUCAS DI VITO FRAGA
-* JOÃO HENRIQUE PERDIGÃO SALLES
+* Fernando Anísio Goulart Pereira
+* Felipe De Pinho Dais Armond
+* Lucas Di Vito Fraga
+* João Henrique Perdigão Salles
 
 ## Orientador
 
-* BERNARDO JEUNON DE ALENCAR
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
