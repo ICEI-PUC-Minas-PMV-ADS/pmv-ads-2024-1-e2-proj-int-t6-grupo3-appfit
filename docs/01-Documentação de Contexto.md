@@ -17,10 +17,9 @@ O objetivo deste trabalho é a criação de um aplicativo de exercícios e recei
 
 Como objetivos específicos, podemos ressaltar:
 
-•	Desenvolvimento de uma Interface Intuitiva: Criar uma interface de usuário simples e amigável, facilitando a navegação e o acesso às funcionalidades do aplicativo
-•	Implementação de Funcionalidades de Exercícios: Desenvolver um conjunto diversificado de exercícios físicos, com imagens e vídeos explicativos, para atender às necessidades de diferentes usuários e níveis de condicionamento físico.
-•	Inclusão de Receitas Saudáveis e Nutritivas: Criar uma variedade de receitas fit, com informações sobre os ingredientes, modo de preparo, valor nutricional e fotos dos pratos, promovendo uma alimentação saudável e equilibrada.
- no seu trabalho.
+•	Desenvolvimento de uma Interface Intuitiva: Criar uma interface de usuário simples e amigável, facilitando a navegação e o acesso às funcionalidades do aplicativo;
+•	Implementação de Funcionalidades de Exercícios: Desenvolver um conjunto diversificado de exercícios físicos, com imagens e vídeos explicativos, para atender às necessidades de diferentes usuários e níveis de condicionamento físico;
+•	Inclusão de Receitas Saudáveis e Nutritivas: Criar uma variedade de receitas fit, com informações sobre os ingredientes, modo de preparo, valor nutricional e fotos dos pratos, promovendo uma alimentação saudável e equilibrada no seu trabalho;
  
 
 ## Justificativa
