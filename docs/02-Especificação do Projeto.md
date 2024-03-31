@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 > Persona 1
 
-(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/blob/main/docs/img/persona01.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/blob/main/docs/img/persona01.png)
 
 > Persona 2
 
