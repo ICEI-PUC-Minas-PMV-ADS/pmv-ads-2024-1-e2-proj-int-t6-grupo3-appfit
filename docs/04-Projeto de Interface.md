@@ -22,12 +22,19 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
+## Tela Inicial
 ![Tela Inicial](img/Wireframe1.png)
+## Tela Cadastro
 ![Tela Cadastro](img/Wireframe2.png)
+## Tela Login
 ![Tela Login](img/Wireframe3.png)
+## Tela Principal
 ![Tela Principal](img/Wireframe4.png)
+## Tela Receitas-Fit
 ![Tela Receitas-Fit](img/Wireframe5.png)
+## Tela Exercícios
 ![Tela Exercícios](img/Wireframe6.png)
+## Tela Fórum-Clientes
 ![Tela Fórum-Clientes](img/Wireframe7.png)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
