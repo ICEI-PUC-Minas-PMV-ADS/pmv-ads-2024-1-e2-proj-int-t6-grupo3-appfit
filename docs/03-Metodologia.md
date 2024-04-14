@@ -70,6 +70,7 @@ As ferramentas empregadas no projeto são:
 - <b>Editor de código:</b> Visual Studio Code<br>
 - <b>Ferramentas de comunicação:</b> Teams e Whatsapp<br>
 - <b>Ferramentas de desenho de tela:</b> Figma<br>
+- <b>Ferramentas de desenho de diagramas</b> Diagrams (draw.io)<br>
 - <b>Ferramentas de CICD</b> Github Actions<br>
 - <b>Cloud Preferente</b> Google Cloud<br>
 
