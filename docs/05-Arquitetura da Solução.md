@@ -13,13 +13,12 @@ Diagrama de conceitual de classes do projeto.
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+Diagrama de conceitual de entidades-relações do projeto.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
+![Diagrama de Classes](img/er_conceptual_diagram.png)
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+
 
 ## Projeto da Base de Dados
 
@@ -29,17 +28,12 @@ Para mais informações, consulte o microfundamento "Modelagem de Dados".
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Se utilizará a suite da Google Cloud Platform (GCP) que oferece flexibilidade e simplicidade para a iteração web. Com firebase podemos ocupar as libs que já provem de manejo de sessão e credenciais para usuário, além de hosting flexível e serverless. Se requere levantar serviços para a iteração com o banco de dados relacional, e agregando métodos para gerar logs e poder realizar debug do aplicativo quando necessário.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+
+![Diagrama de Classes](img/er_conceptual_diagram.png)
+
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+O website será hospedado em Google Cloud Platform potenciado por Firebase para web e apis. Com backend em uma db cloud sql com psql (cloud sql).
