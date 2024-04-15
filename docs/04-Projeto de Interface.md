@@ -33,7 +33,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ## Tela Receitas-Fit
 ![Tela Receitas-Fit](img/Wireframe5.png)
 ## Tela Exercícios
-![Tela Exercícios](img/Wireframe6.png)
+![Tela Exercícios](img/Desktop -6(1).png)
 ## Tela Fórum-Clientes
 ![Tela Fórum-Clientes](img/Wireframe7.png)
 
