@@ -1,8 +1,12 @@
 # Introdução
 
-A pandemia da Covid-19 trouxe para a sociedade experiencias inusitadas, onde medidas sanitárias de longos períodos de isolamento foram necessárias para contê-la, nesse cenário, as pessoas precisaram buscar alternativas, que não demandem deslocamentos para se manter fisicamente ativos. Contudo, após o período pandêmico, as rotinas não voltaram a ser as mesmas. Muitas pessoas permaneceram trabalhando no sistema remoto, outros no sistema híbrido e alguns totalmente presencial. Ademais, sabe-se que a jornada laboral é extenuante e ocupa a maior parte do tempo das pessoas, cabe também lembrar, que muitas pessoas além de trabalhar, incluem estudos nas suas rotinas, portanto, não é simples adicionar mais tarefas como frequentar diariamente as academias.
+Em um mundo onde a busca por um estilo de vida saudável é cada vez mais essencial, nosso site surge como um aliado indispensável para aqueles que desejam incorporar hábitos fitness em sua rotina diária. Atualmente, observamos uma crescente conscientização sobre a importância de cuidar da saúde e do bem-estar. As pessoas estão percebendo que uma vida saudável não se resume apenas a ter um corpo esteticamente atraente, mas sim a garantir vitalidade, energia e longevidade. Nesse contexto, nosso site desempenha um papel fundamental ao oferecer um espaço dedicado não apenas à prática de exercícios, mas também ao aprendizado e aperfeiçoamento da técnica correta de execução.
 
-Nesse sentido, a proposta deste projeto é de produzir uma aplicação que proporcione praticidade aos clientes, por meio de planos personalizados em suas características, permitindo-lhes flexibilidade na escolha dos horários em que desejam se exercitar, com acesso em qualquer momento do dia, os sete dias da semana. Além disso, poderão encontrar vários outros benefícios, tais como profissionais capacitados, planos de refeições, entre outros
+Mais do que nunca, a sociedade reconhece que investir na saúde física e mental é essencial para uma vida plena. Estudos mostram que a prática regular de atividades físicas não apenas melhora a saúde cardiovascular e fortalece os músculos, mas também contribui para a redução do estresse, melhora do humor e aumento da autoestima. Além disso, uma alimentação balanceada e nutritiva desempenha um papel crucial na prevenção de doenças e na promoção do bem-estar geral.
+
+É nesse contexto que nosso site se destaca, ao reunir informações abrangentes sobre academias, nutrição e bem-estar, proporcionando um guia completo para uma vida saudável em um único local. Acreditamos que ao fornecer orientações precisas e recursos valiosos, estamos capacitando indivíduos a assumir o controle de sua saúde e qualidade de vida.
+
+Portanto, junte-se a nós nessa jornada em direção a um estilo de vida mais saudável e ativo. Estamos aqui para ajudá-lo a alcançar seus objetivos de forma segura, eficaz e sustentável.
 
 
 ## Problema
