@@ -50,11 +50,16 @@ function setErrorFor(input, message) {
  
     // Adiciona a classe de erro
     formControl.className = "form-control error";
+
+    small.className=""
 }
  
 function setSuccessFor(input) {
     const formControl = input.parentElement;
+    const small = formControl.querySelector("small");
     formControl.className = 'form-control success';
+    small.className="hidden"
+    small.innerText =""
 }
  
 function checkEmail(email) {

@@ -90,4 +90,6 @@ button:hover {
     visibility: visible;
     color: #e74c3c;
 }
- 
+ .hidden {
+    display:none;
+ }
