@@ -13,7 +13,8 @@ body {
     text-align: center;
 }
 
-.rectangle {
+button {
+    text-decoration: none;
     width: 100%; 
     max-width: 600px; 
     height: 200px;
@@ -27,6 +28,8 @@ body {
     font-size: 2em;
     margin-right: 20px; 
 }
+
+.rectangle a:visited {     color: inherit; }
 
 @media screen and (min-width: 768px) {
     .rectangle {
