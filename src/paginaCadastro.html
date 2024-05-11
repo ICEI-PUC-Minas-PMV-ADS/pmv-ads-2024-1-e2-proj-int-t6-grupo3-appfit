@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Cadastro</h1>
-        <form id="form" action="processar_cadastro.php" method="post">
+        <form id="form" method="post">
             <div class="form-group">
                 <label for="email">Digite o email que deseja usar:</label>
                 <input type="email" id="email" name="email" required>
@@ -28,15 +24,15 @@
                 <i class="fa-solid fa-check"></i>
                 <small class="hidden" >Mensagem de erro</small>
             </div>
-            <button type="submit">Continuar</button>
+            <a href="dadoscliente.html"><button>Continuar</button></a>
         </form>
-        <script src="cadastro.js"></script>
         <script>
-            
-            document.getElementById('form').addEventListener('submit', function() {
-                window.location.href = 'dadoscliente.html';
+            document.getElementById("form").addEventListener("submit", function(event) {
+                event.preventDefault(); // Impede o envio do formulário padrão
+                window.location.href = "dadoscliente.html"; // Redireciona para a página "dadoscliente.html"
             });
         </script>
+        
     </div>
 </body>
 </html>
