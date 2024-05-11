@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,14 +14,14 @@
     <div class="container">
         <h1>Cadastro</h1>
         <form id="form" action="processar_cadastro.php" method="post">
-            <div class="form-control">
+            <div class="form-group">
                 <label for="email">Digite o email que deseja usar:</label>
                 <input type="email" id="email" name="email" required>
                 <i class="fa-solid fa-exclamation"></i>
                 <i class="fa-solid fa-check"></i>
                 <small class="hidden">Mensagem de erro</small>
             </div>
-            <div class="form-control">
+            <div class="form-group">
                 <label for="senha">Digite sua senha:</label>
                 <input type="password" id="senha" name="senha" required>
                 <i class="fa-solid fa-exclamation"></i>
@@ -27,6 +31,12 @@
             <button type="submit">Continuar</button>
         </form>
         <script src="cadastro.js"></script>
+        <script>
+            
+            document.getElementById('form').addEventListener('submit', function() {
+                window.location.href = 'dadoscliente.html';
+            });
+        </script>
     </div>
 </body>
 </html>
