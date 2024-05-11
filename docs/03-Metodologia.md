@@ -5,6 +5,12 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+|Ambiente                            | Plataforma        | Link de acesso                                                                                  |
+|------------------------------------|-------------------|-------------------------------------------------------------------------------------------------- 
+|Repositório de Código Fonte         | Github            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit           | 
+|Gerenciamentodo Projeto             | Github Projects   | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/929/views/1                             |
+|Projeto de Interface e Wireframes   | Figma             | https://www.figma.com/design/ZnrwrDKxZ3n4BZBOJvigac/Untitled?node-id=0%3A1&t=LVqM07kirKmwgsPR-1 |
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -27,23 +33,19 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Nossa equipe escolheu como metodologia ágil o método Scrum, observando a seguinte divisão, respeitando o número de membros do grupo:
+● Scrum Master: Felipe De Pinho Dias Armond
+● Product Owner: João Salles
+● Equipe de Desenvolvimento:
+○ Felipe De Pinho Dias Armond
+○ João Salles
+○ Lucas Di Vito Fraga
 
 ### Processo
 
@@ -55,15 +57,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - <b>Done:</b> Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.<br>
 
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
 ### Ferramentas
-
-As ferramentas empregadas no projeto são:
 
 As ferramentas empregadas no projeto são:
 
@@ -74,4 +68,8 @@ As ferramentas empregadas no projeto são:
 - <b>Ferramentas de CICD</b> Github Actions<br>
 - <b>Cloud Preferente</b> Google Cloud<br>
 
-Se prefere uso de Google Cloud devido a disponibilidade de Firebase como front e backend-as-a-service, simplificando o desenvolvimento do projeto.
+O quadro Kanban do grupo no Github Projects não pode ser acessado por um link, pois é privado e não se sabe como tornar publico, então segue a imagem de como ele se encontra:
+
+![](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/112271af8d78e307711cfe6fb68d763a77d0667c/docs/GithubProjects.png)
+
+As tarefas, para facilitar sua vizualização, possuem cores variadas para indicar cada estágio de sua execução.
