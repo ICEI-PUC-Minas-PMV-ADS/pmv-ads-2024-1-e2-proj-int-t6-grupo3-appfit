@@ -61,9 +61,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição|
 |--|----------------|
 |01| O projeto deverá ser entregue até o final do semestre|
-|02| Não pode ser desenvolvido em um front server-based|
+|02| Um membro no time|
 |03| Baixo orçamento|
-|04| Poucos membros no time|
+
 
 
 > **Links Úteis**:
