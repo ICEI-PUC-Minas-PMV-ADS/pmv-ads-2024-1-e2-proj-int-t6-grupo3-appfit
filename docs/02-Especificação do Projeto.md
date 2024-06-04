@@ -28,32 +28,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
-|RF-002| A aplicação deve suportar login e administrar historico de uso   | MÉDIA |
+|RF-001| A aplicação deve permitir o cadastro, login e logout dos usuários | ALTA | 
+|RF-002| A aplicação deve permitir que o usuário veja o histórico de exercícios realizados   | MÉDIA |
+|RF-003| A aplicação deve permitir a filtragem de receitas baseada no número de calorias   | MÉDIA |
+|RF-004| A aplicação deve permitir que o usuário filtre pelos exercícios   | ALTA |
+|RF-005| A aplicação deve permitir que o usuário favorite as receitas   | MÉDIA |
+|RF-006| A aplicação deve oferecer um fórum de usuários onde os membros podem compartilhar experiências, dicas e suporte mútuo   | MÉDIA |
+|RF-007| O site deve oferecer informações relacionadas à atividades físicas e dietas, na tela principal, por meio de links externos  | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| O login deve suportar single-sign-on |  BAIXA |
+|RNF-002| A aplicação deve possuir uma interface amigável |  BAIXA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -73,7 +64,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](img/diagrama_casos_de_uso.png)
+![Diagrama de Casos de Uso](img/diagramaCasosdeUso.png)
 
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
