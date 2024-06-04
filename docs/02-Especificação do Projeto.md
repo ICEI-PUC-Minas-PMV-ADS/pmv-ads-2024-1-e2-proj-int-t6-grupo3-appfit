@@ -18,7 +18,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Histórias de Usuários
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/blob/main/docs/img/historia%20de%20usuario.png)
+|EU, COMO...|            PERSONA	QUERO/PRECISO ... FUNCIONALIDADE                |	PARA ... MOTIVO/VALOR                                                               |
+|----------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+Pedro Silva| Desejo poder cadastrar e realizar login com uma conta              | Salvar minhas preferências no aplicativo                                            |
+Pedro Silva| Desejo poder filtrar por exercícios da minha preferência           | Conseguir realizar os exercícios que eu quiser no dia                               |
+Pedro Silva| Desejo obter informações sobre o mundo fitness dentro do aplicativo| Não perder meu tempo tendo que fazer pesquisas                                      |
+Pedro Silva| Desejo poder filtrar as receitas pelo número de calorias           | Facilitar minha escolha da receita a ser preparada de acordo com minhas necessidades|
+Ana Dias   | Desejo conseguir favoritar receitas                                | Não precisar pesquisar novamente o que eu irei preparar                             |
+Ana Dias	 | Desejo poder discutir com outros usuários do aplicativo            | Trocar informações com pessoas com os mesmos objetivos que eu                       |
+Ana Dias	 | Gostaria que a aplicação possuísse uma interface amigável          | Pois tenho um pouco de dificuldade em mexer em aplicativos                          |
 
 ## Requisitos
 
@@ -26,15 +34,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir o cadastro, login e logout dos usuários | ALTA | 
-|RF-002| A aplicação deve permitir que o usuário veja o histórico de exercícios realizados   | MÉDIA |
-|RF-003| A aplicação deve permitir a filtragem de receitas baseada no número de calorias   | MÉDIA |
-|RF-004| A aplicação deve permitir que o usuário filtre pelos exercícios   | ALTA |
-|RF-005| A aplicação deve permitir que o usuário favorite as receitas   | MÉDIA |
-|RF-006| A aplicação deve oferecer um fórum de usuários onde os membros podem compartilhar experiências, dicas e suporte mútuo   | MÉDIA |
-|RF-007| O site deve oferecer informações relacionadas à atividades físicas e dietas, na tela principal, por meio de links externos  | MÉDIA |
+|ID      | Descrição do Requisito  | Prioridade    |
+|--------|-----------------------------------------|----|
+|RF-001  | A aplicação deve permitir o cadastro, login e logout dos usuários | ALTA | 
+|RF-002  | A aplicação deve permitir que o usuário veja o histórico de exercícios realizados   | MÉDIA |
+|RF-003  | A aplicação deve permitir a filtragem de receitas baseada no número de calorias   | MÉDIA |
+|RF-004  | A aplicação deve permitir que o usuário filtre pelos exercícios   | ALTA |
+|RF-005  | A aplicação deve permitir que o usuário favorite as receitas   | MÉDIA |
+|RF-006  | A aplicação deve oferecer um fórum de usuários onde os membros podem compartilhar experiências, dicas e suporte mútuo   | MÉDIA |
+|RF-007  | O site deve oferecer informações relacionadas à atividades físicas e dietas, na tela principal, por meio de links externos  | MÉDIA |
 
 
 ### Requisitos não Funcionais
