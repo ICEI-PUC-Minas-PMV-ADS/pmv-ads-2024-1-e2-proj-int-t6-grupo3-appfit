@@ -4,9 +4,40 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Tela de Login:
+
+![Tela Login](img/telaLogin.png)
+
+Tela de Cadastro:
+
+![Tela Cadastro](img/telaCadastro.png)
+
+Tela Principal:
+Nessa tela estarão disponíveis os caminhos para a página de receitas, exercícios e a função de logout, além dos links exernos, ao clicar em "Saiba mais", nos carrosséis.
+
+![Tela Principal](img/paginaPrincipal.png)
+
+Tela de seleção dos exercícios:
+Tela para a seleção de exercícios, basta clicar em selecionar. 
+
+![Tela de Exercícios ](img/paginaSelecaoExercicios.png)
+
+Tela dos exercícios:
+Caso queira determinar que realizou um exercício, o usuário deve clicar em "Concluir", para que o exercício seja salvo na página de histórico.
+
+![Tela de Exercícios ](img/paginaExercicios.png)
+
+Tela do histórico de exercícios:
+
+![Tela do histórico de exercícios ](img/paginaHistoricoExercicios.png)
+
+Tela das receitas:
+
+Tela para filtragem de receitas com base nas calorias
+![Tela das receitas ](img/paginaReceitas.png)
+
+
+
+
+
+
