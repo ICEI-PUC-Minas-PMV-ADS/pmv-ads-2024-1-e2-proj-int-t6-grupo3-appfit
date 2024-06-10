@@ -1,0 +1,161 @@
+﻿@{
+    ViewData["Title"] = "Exercícios";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FIT APP</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProjetifitPlann.styles.css" asp-append-version="true" />
+    <style>
+        .rectangle {
+            width: 100%;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #f8f9fa;
+            border: 2px solid #dee2e6;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.25rem;
+            color: #343a40;
+            text-decoration: none;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+            .rectangle:hover {
+                background-color: #e2e6ea;
+                border-color: #adb5bd;
+            }
+
+        .btn-custom {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FIT APP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Página Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Exercicios" asp-action="Index">Exercícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Exercicios" asp-action="Historico">Histórico</a>
+                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                           
+                        }
+                    </ul>
+                    <ul class="navbar-nav">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-dark">Olá, @User.Identity.Name!</span>
+                            </li>
+
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Usuario" asp-action="Sair">Sair</a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Registro</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Selecione o grupo muscular</h1>
+    <div class="form-group">
+        <label for="grupoMuscular">Grupo Muscular</label>
+        <select class="form-control" id="grupoMuscular" onchange="mostrarExercicios()">
+            <option value="">Selecione</option>
+            @foreach (var item in ViewBag.GrupoMuscular)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
+    </div>
+    <div id="listaExercicios" class="mt-4">
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const exercicios = {
+            peito: [
+                { nome: "Peck Deck", descricao: "O peck deck é um equipamento de musculação utilizado para trabalhar os músculos do peitoral. No exercício, o praticante senta no aparelho com as costas apoiadas, segura as alças com os cotovelos flexionados e faz o movimento de fechar os braços, aproximando as mãos na frente do corpo, focando principalmente no músculo peitoral maior. É um exercício eficaz para o desenvolvimento e a definição dos peitorais, proporcionando um movimento controlado e seguro.", imagem: "/imagens/peck2.jpg" },
+                { nome: "Supino reto", descricao: "O supino reto é um dos exercícios fundamentais para desenvolver os músculos do peito, tríceps e ombros. No supino reto, o praticante deita em um banco horizontal, segura uma barra com os braços estendidos em linha reta acima do peito e realiza o movimento de abaixar a barra até que ela toque o peito, e então empurra a barra de volta à posição inicial. Este exercício é excelente para construir força e massa muscular no peito, sendo um dos pilares dos treinos de musculação para o desenvolvimento dessa região.", imagem: "/imagens/supinoreto.jpg" },
+                { nome: "Supino inclinado", descricao: "O supino inclinado é uma variação do exercício de supino, que foca principalmente na parte superior dos músculos peitorais, além de envolver os ombros e tríceps. Neste exercício, o banco é ajustado em um ângulo inclinado de cerca de 30 a 45 graus. O praticante deita-se no banco inclinado e segura a barra com os braços estendidos sobre o peito. Em seguida, abaixa a barra em direção ao peito, mantendo os cotovelos alinhados e controlando o movimento, e depois empurra a barra de volta à posição inicial. O supino inclinado é uma excelente opção para variar o estímulo nos músculos peitorais, direcionando o foco para a porção superior do peito.", imagem: "/imagens/supinoInclinado.jpg" },
+                { nome: "Flexão de braço", descricao: "A flexão de braço, também conhecida como push-up, é um exercício fundamental de trienamento de força que trabalha vários grupos musculares, incluindo o peitoral, ombros, tríceps e musculos do core.No exercício, o praticanete começa na posição de prancha com as mãos apoiadas no chão, ligeiramente mais largas do que a largura dos ombros. O corpo deve formar uma linha reta dos calcanhares à cabeça.Em seguida, o praticante abaixa o corpo até que o peito quase toque o chão, mantendo os cotovelos próximos ao corpo. Por fim, empurra o corpo de volta à posição inicial, estendend completamente os braços. As flexões de braço são uma excelente maneira de construir força, resistência e estabilidade muscular, podendo ser adaptadas em diferentes variações para atender a diferentes níveis de condicionamento físico.", imagem: "/imagens/flexaoBraco.jpg" }
+            ],
+
+
+            braco: [
+                { nome: "Rosca direta", descricao: "A rosca direta é um exercício de musculação que visa principalmente o desenvolvimento dos músculos do braço, especificamente o bíceps braquial. Para realizar a rosca direta, o praticante segura halteres ou uma barra com as mãos na largura dos ombros, mantendo os braços estendidos ao longo do corpo. Em seguida, com os cotovelos fixos ao longo do tronco, flexiona os braços levando o peso em direção aos ombros, contraindo os músculos do bíceps. É importante manter os movimentos controlados, evitando balançar o corpo para ajudar no levantamento do peso. A rosca direta é um dos exercícios mais eficazes para o desenvolvimento dos bíceps e pode ser realizada com uma variedade de equipamentos, como halteres, barras retas ou barras EZ.", imagem: "/imagens/roscaDireta.jpg " },
+                { nome: "Elevação lateral", descricao: "A elevação lateral é um exercício de musculação direcionado para os deltoides laterais, que são os músculos da parte lateral dos ombros. Para realizar a elevação lateral, o praticante segura halteres com as mãos ao lado do corpo, com as palmas viradas para dentro. Em seguida, mantendo os braços estendidos, levanta os halteres para os lados até a altura dos ombros, mantendo os cotovelos ligeiramente flexionados. Durante o movimento, é importante manter a contração nos deltoides laterais e evitar utilizar impulso de outros músculos, como os trapézios. A elevação lateral é um exercício excelente para desenvolver a largura e a definição dos ombros, sendo especialmente útil para complementar os treinos de ombro e melhorar a simetria e o equilíbrio muscular.", imagem: "/imagens/elevacaoLateral.jpg  " },
+                { nome: "Rosca martelo", descricao: "A rosca martelo é um exercício de musculação que visa principalmente o desenvolvimento dos músculos do braço, incluindo o bíceps braquial e o braquial anterior, com um pouco mais de ênfase no braquial anterior. Para realizar a rosca martelo, o praticante segura halteres com as palmas das mãos voltadas para dentro, ou seja, em uma posição neutra. Em seguida, mantendo os braços ao lado do corpo, com os cotovelos estendidos, flexiona os cotovelos levando os halteres em direção aos ombros. Durante o movimento, é importante manter os pulsos retos e os cotovelos fixos ao lado do corpo. A rosca martelo é uma variação da rosca tradicional que pode ajudar a desenvolver os músculos dos braços de forma mais completa, especialmente o braquial anterior, além de promover estabilidade nos pulsos.", imagem: " /imagens/roscaMartelo.jpg " },
+                { nome: "Tríceps corda", descricao: "A extensão de tríceps com corda é um exercício popular de musculação que visa principalmente o desenvolvimento dos músculos tríceps, localizados na parte de trás do braço. Para realizar a extensão de tríceps com corda, o praticante começa em pé na frente de uma máquina de polia com uma corda presa à parte superior da máquina. Em seguida, segura a corda com ambas as mãos e mantém os cotovelos próximos ao corpo, com os braços dobrados em um ângulo de cerca de 90 graus. A partir dessa posição, estende os braços para baixo, movendo apenas os antebraços, até que os braços estejam estendidos completamente. É importante manter os cotovelos próximos ao corpo e controlar o movimento durante toda a extensão e flexão dos braços. Este exercício é eficaz para isolar os músculos tríceps e pode ser realizado com diferentes variações de intensidade, ajustando o peso na máquina de polia.", imagem: " /imagens/tricepsCorda.jpg " }
+            ],
+            costas: [
+                { nome: "Pulley frente", descricao: "A puxada frontal (ou pulldown frontal) é um exercício com polia usado para desenvolver os músculos das costas, principalmente o latíssimo do dorso, mas também recruta outros músculos como os trapézios, deltoides posteriores e bíceps. Para realizar a puxada frontal, o praticante senta-se em um banco com os joelhos sob os rolos de suporte, ajusta a carga desejada na máquina e segura a barra com as palmas voltadas para frente e as mãos afastadas a uma largura um pouco maior que a largura dos ombros. Então, puxa a barra em direção ao peito, mantendo os cotovelos apontando para baixo e para trás, e contrai os músculos das costas. Em seguida, estende os braços lentamente até que eles fiquem estendidos novamente, mantendo o controle do movimento. É importante evitar usar impulso ou balançar o corpo durante o exercício, mantendo a contração nos músculos das costas durante todo o movimento.", imagem: "/imagens/pulleyFrente.jpg " },
+                { nome: "Remada curvada", descricao: "A remada curvada é um exercício fundamental para desenvolver os músculos das costas, especialmente o grande dorsal, trapézios e deltoides posteriores. Para executar a remada curvada, o praticante fica em pé com os pés afastados na largura dos ombros, segurando uma barra com as mãos na largura dos ombros ou ligeiramente mais afastadas. Incline o tronco para a frente em um ângulo de aproximadamente 45 graus, mantendo as costas retas e o abdômen contraído para oferecer suporte à coluna. Em seguida, puxe a barra em direção ao abdômen, mantendo os cotovelos próximos ao corpo e contraindo os músculos das costas. Retorne a barra à posição inicial de forma controlada, estendendo os braços completamente. É importante manter a forma correta durante todo o exercício para evitar lesões e maximizar o envolvimento dos músculos alvo.", imagem: "/imagens/remadaCurvada.jpg " },
+                { nome: "Remada baixa", descricao: "A remada baixa é um exercício de musculação que visa principalmente o desenvolvimento dos músculos das costas, incluindo o grande dorsal, trapézios e deltoides posteriores. Para realizar a remada baixa, o praticante geralmente se posiciona em uma máquina específica de remada baixa ou utiliza uma polia baixa em uma estação de cabo. O movimento é executado sentado em um banco, com as pernas levemente flexionadas e os pés apoiados no chão ou em suportes. O próximo passo é segurar a barra ou pega anexada à polia baixa com as palmas das mãos voltadas para baixo e os braços estendidos. Incline o tronco para frente mantendo as costas retas e o abdômen contraído. Em seguida, puxe a barra em direção ao abdômen, mantendo os cotovelos próximos ao corpo e contraindo os músculos das costas. Retorne a barra à posição inicial de forma controlada, estendendo os braços completamente.", imagem: "/imagens/remadaCavalinho.jpg " },
+                { nome: "Barra fixa supinada", descricao: "A barra fixa supinada, também conhecida como pegada supinada na barra fixa, é um exercício de calistenia e musculação que visa principalmente o desenvolvimento dos músculos das costas, especialmente o grande dorsal, mas também recruta os músculos dos braços, como os bíceps. Para realizar a barra fixa supinada, você agarra a barra com as palmas das mãos viradas para você e as mãos afastadas aproximadamente na largura dos ombros ou um pouco mais. Em seguida, pendura-se na barra, mantendo os braços estendidos. Utilizando a força dos músculos das costas, puxe o corpo para cima até que o queixo ultrapasse a barra. Concentre-se em contrair os músculos das costas durante todo o movimento. Depois, desça o corpo de forma controlada até que os braços estejam completamente estendidos novamente.", imagem: "/imagens/barraSupinada.jpg " }
+            ],
+            pernas: [
+                { nome: "Agachamento", descricao: "O agachamento é um exercício fundamental de musculação que visa fortalecer os músculos das pernas, incluindo os quadríceps, glúteos e isquiotibiais, além de envolver o core e diversos outros músculos estabilizadores. Para realizá-lo, o praticante começa em pé, com os pés afastados na largura dos ombros ou um pouco mais, e os dedos dos pés ligeiramente apontados para fora. Flexione os joelhos e os quadris, abaixando o corpo até que os quadris fiquem abaixo do nível dos joelhos ou o mais próximo possível disso, mantendo os calcanhares no chão e o tronco ereto. Em seguida, estenda os joelhos e os quadris para retornar à posição inicial. É importante manter uma boa forma durante todo o movimento, mantendo os joelhos alinhados com os dedos dos pés e evitando que eles ultrapassem a linha dos dedos. O agachamento é um exercício versátil e altamente eficaz para desenvolver força, resistência e tamanho muscular nas pernas, sendo essencial em qualquer programa de treinamento de força.", imagem: "/imagens/agacho.jpg " },
+                { nome: "Stiff", descricao: "O stiff é um exercício de musculação que visa principalmente o fortalecimento dos músculos posteriores da coxa, como os isquiotibiais e os glúteos. Para realizá-lo, o praticante fica em pé, segurando uma barra com as mãos afastadas na largura dos ombros. Mantenha as pernas levemente flexionadas e as costas retas. Incline o tronco para frente a partir dos quadris, mantendo os joelhos ligeiramente flexionados, até que a barra desça abaixo dos joelhos. Em seguida, retorne à posição inicial, mantendo o controle do movimento e evitando arquear as costas. O stiff é um exercício eficaz para fortalecer os músculos posteriores da coxa e melhorar a estabilidade do core.", imagem: "/imagens/stiff.jpg " },
+                { nome: "Afundo", descricao: "O afundo é um exercício de musculação que visa principalmente o fortalecimento dos músculos das pernas, incluindo os quadríceps, glúteos e isquiotibiais. Para realizá-lo, o praticante fica em pé, com os pés afastados na largura dos ombros. Dê um passo à frente com uma perna e flexione os joelhos até que a perna da frente forme um ângulo de 90 graus e a coxa fique paralela ao chão, enquanto a perna de trás se flexiona até quase tocar o chão. Mantenha o tronco ereto durante todo o movimento. Em seguida, empurre o chão com o calcanhar da perna da frente para retornar à posição inicial. Repita o movimento com a outra perna. O afundo é um excelente exercício para desenvolver força, equilíbrio e estabilidade muscular nas pernas.", imagem: "/imagens/afundo.jpg " },
+                { nome: "Agachamento Búlgaro", descricao: "O agachamento búlgaro é um exercício unilateral que visa principalmente os quadríceps, glúteos e músculos estabilizadores do core. Para realizá-lo, você precisa de um banco ou plataforma elevada. Fique de costas para o banco, com um pé apoiado nele e o outro pé à frente. Agache-se até que o joelho da perna da frente forme um ângulo de 90 graus. Empurre o chão com o calcanhar da perna da frente para retornar à posição inicial. Repita e troque de perna.", imagem: "/imagens/bulgaro.jpg " }
+            ]
+        };
+
+        function mostrarExercicios() {
+            const grupoMuscular = document.getElementById('grupoMuscular').value;
+            const listaExercicios = document.getElementById('listaExercicios');
+            listaExercicios.innerHTML = '';
+
+            if (grupoMuscular && exercicios[grupoMuscular]) {
+                const exerciciosGrupo = exercicios[grupoMuscular];
+                exerciciosGrupo.forEach(exercicio => {
+                    const exercicioDiv = document.createElement('div');
+                    exercicioDiv.className = 'rectangle';
+                    exercicioDiv.innerHTML = `
+                                <h2>${exercicio.nome}</h2>
+                                <img src="${exercicio.imagem}" alt="${exercicio.nome}" style="max-width: 100%; height: auto;">
+                                <p>${exercicio.descricao}</p>
+                                <a href="/Exercicios/Concluir?exercicio=${exercicio.nome}" class="btn btn-primary btn-custom">Concluir</a>
+                            `;
+                    listaExercicios.appendChild(exercicioDiv);
+                });
+            }
+        }
+    </script>
+}

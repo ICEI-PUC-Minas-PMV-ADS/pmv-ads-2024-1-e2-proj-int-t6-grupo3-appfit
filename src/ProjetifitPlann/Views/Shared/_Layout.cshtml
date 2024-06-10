@@ -1,0 +1,56 @@
+﻿@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - ProjetofitPlann</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                @* <div class="navbar-header">
+                    <a class="navbar-brand" href="@Url.Action("Index", "Home")">ProjetofitPlann</a>
+                </div> *@
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li>
+                                <form asp-action="Logout" asp-controller="Usuario" method="post" id="logoutForm">
+                                    <button type="submit" class="btn btn-link navbar-btn navbar-link">Logout</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Login", "Usuario")">Login</a></li>
+                            <li><a href="@Url.Action("Registro", "Usuario")">Registro</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ProjetofitPlann</p>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

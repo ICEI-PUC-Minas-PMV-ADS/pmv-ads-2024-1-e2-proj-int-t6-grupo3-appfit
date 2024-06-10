@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjetifitPlann.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjetifitPlann.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\afundo.jpg",
+      "PackagePath": "staticwebassets\\imagens\\afundo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\agacho.jpg",
+      "PackagePath": "staticwebassets\\imagens\\agacho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\barraSupinada.jpg",
+      "PackagePath": "staticwebassets\\imagens\\barraSupinada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\bulgaro.jpg",
+      "PackagePath": "staticwebassets\\imagens\\bulgaro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\elevacaoLateral.jpg",
+      "PackagePath": "staticwebassets\\imagens\\elevacaoLateral.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\flexaoBraco.jpg",
+      "PackagePath": "staticwebassets\\imagens\\flexaoBraco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\peck2.jpg",
+      "PackagePath": "staticwebassets\\imagens\\peck2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\peckdeck.jpg",
+      "PackagePath": "staticwebassets\\imagens\\peckdeck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\pulleyFrente.jpg",
+      "PackagePath": "staticwebassets\\imagens\\pulleyFrente.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\remadaCavalinho.jpg",
+      "PackagePath": "staticwebassets\\imagens\\remadaCavalinho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\remadaCurvada.jpg",
+      "PackagePath": "staticwebassets\\imagens\\remadaCurvada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\roscaDireta.jpg",
+      "PackagePath": "staticwebassets\\imagens\\roscaDireta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\roscaMartelo.jpg",
+      "PackagePath": "staticwebassets\\imagens\\roscaMartelo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\stiff.jpg",
+      "PackagePath": "staticwebassets\\imagens\\stiff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\supinoInclinado.jpg",
+      "PackagePath": "staticwebassets\\imagens\\supinoInclinado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\supinoreto.jpg",
+      "PackagePath": "staticwebassets\\imagens\\supinoreto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\imagens\\tricepsCorda.jpg",
+      "PackagePath": "staticwebassets\\imagens\\tricepsCorda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\imagemCarrossel1.jpg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\imagemCarrossel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\imagemCarrossel2.jpg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\imagemCarrossel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\imagemCarrossel3.jpg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\imagemCarrossel3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\bootstrap\\peck2.jpg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\peck2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Felipe\\Downloads\\ProjetifitPlann (1)\\ProjetifitPlann\\ProjetifitPlann\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProjetifitPlann.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProjetifitPlann.props",
+      "PackagePath": "build\\ProjetifitPlann.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjetifitPlann.props",
+      "PackagePath": "buildMultiTargeting\\ProjetifitPlann.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProjetifitPlann.props",
+      "PackagePath": "buildTransitive\\ProjetifitPlann.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

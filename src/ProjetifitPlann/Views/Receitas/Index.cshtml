@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>@ViewBag.Title - FIT APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-hjq/x+fuEPzgQ6tBW2MZPD5pVDx6XT0Blm2/zUaWPEzB0J0zfiXFI2fvqWZf5eNVhx5gYBpbP09v5RzHj8sFgQ==" crossorigin="anonymous" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            padding-top: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .form-control, .btn {
+            border-radius: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+
+        .table {
+            border-radius: 15px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+            .table th, .table td {
+                vertical-align: middle;
+            }
+
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 123, 255, 0.05);
+        }
+
+        .table th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .search-form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Voltar</a>
+    </div>
+    <div class="container">
+        <h2 class="text-center">@ViewBag.Title</h2>
+        <!-- Formulário de pesquisa -->
+        <div class="row search-form">
+            <div class="col-md-12">
+                <form method="get" action="@Url.Action("Index")">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="minCalorias" class="form-label">Calorias Mínimas:</label>
+                            <input type="number" class="form-control" id="minCalorias" name="minCalorias" value="@ViewBag.MinCalorias" />
+                        </div>
+                        <div class="col-md-4">
+                            <label for="maxCalorias" class="form-label">Calorias Máximas:</label>
+                            <input type="number" class="form-control" id="maxCalorias" name="maxCalorias" value="@ViewBag.MaxCalorias" />
+                        </div>
+                        <div class="col-md-2 align-self-end">
+                            <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Tabela de receitas -->
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Nome</th>
+                                <th scope="col">Descrição</th>
+                                <th scope="col">Modo De Preparo</th>
+                                <th scope="col">Calorias</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var receita in Model)
+                            {
+                                <tr>
+                                    <td>@receita.Nome</td>
+                                    <td>@receita.Descricao</td>
+                                    <td>@receita.ModoPreparo</td>
+                                    <td>@receita.Calorias</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha512-wwZ06VTjuGa6S3F4qFurGk70YspT9atbKuXzDl0zIRmG9wApcBQMeAZoFbC0w7n9vT1QGnp+LE/buB6V3Lv6oA==" crossorigin="anonymous"></script>
+</body>
+</html>

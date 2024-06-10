@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Confirmação apagar o usuário";
+}
+
+<div class="text-center">
+    <h1>Realmente deseja apagar o usuário (Felipe Armond)?</h1>
+</div>
+<br />
+<div class="d-flex flex-column">
+    <a class="btn btn-primary btn-block" role="button" asp-controller="Contato" asp-action="Index">Cancelar exclusão</a>
+    <br />
+    <a class="btn btn-danger btn-block" role="button" asp-controller="Contato" asp-action="Apagar">Confirmar exclusão</a>
+</div>
