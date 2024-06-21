@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetifitPlann
 build_property.RootNamespace = ProjetifitPlann
-build_property.ProjectDir = C:\Users\Felipe\Downloads\ProjetifitPlann (1)\ProjetifitPlann\ProjetifitPlann\
+build_property.ProjectDir = c:\Users\Felipe\Projeto\pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit\src\ProjetifitPlann\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Felipe\Downloads\ProjetifitPlann (1)\ProjetifitPlann\ProjetifitPlann
+build_property.MSBuildProjectDirectory = c:\Users\Felipe\Projeto\pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit\src\ProjetifitPlann
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Contato/ApagarConfirmacao.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Contato/ApagarConfirmacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xBcGFnYXJDb25maXJtYWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Contato/Criar.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Contato/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Contato/Editar.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Contato/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Contato/Index.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Contato/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Exercicios/Historico.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Exercicios/Historico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvc1xIaXN0b3JpY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Exercicios/Index.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Exercicios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Home/Index.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Home/Privacy.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Receitas/Index.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Receitas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Shared/Error.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Usuario/Login.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Usuario/Logout.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Usuario/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Usuario/Registro.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Usuario/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Usuario/Sair.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Usuario/Sair.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xTYWlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/_ViewImports.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/_ViewStart.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Felipe/Downloads/ProjetifitPlann (1)/ProjetifitPlann/ProjetifitPlann/Views/Shared/_Layout.cshtml]
+[c:/Users/Felipe/Projeto/pmv-ads-2024-1-e2-proj-int-t6-grupo3-appfit/src/ProjetifitPlann/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7gmmv767qc
