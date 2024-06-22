@@ -2,15 +2,12 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
 
 Por exemplo:
  
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A tela deve a presentar a funcionalidade de cadastro do usuário, caso ele não tenha uma conta |
+|	Requisito Associado 	| RF-00X - A tela deve apresentar a funcionalidade de cadastro do usuário, caso ele não tenha uma conta |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passo 1 	| - Acessar o navegador e inserir: https://fitapp2024.azurewebsites.net/Usuario/Registro
 | Passo 2   | - Criar conta, preenchendo os dados solicitados(nome, e-mail, senha e confirmação de senha)
