@@ -6,17 +6,17 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| **CT-01 – Cadastro perfil, login e logout** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve permitir o cadastro, login e logout dos usuários. |
+|	Requisito Associado 	 |  - A aplicação deve permitir o cadastro, login e logout dos usuários. |
 |Registro de evidência | https://drive.google.com/file/d/1WsZpVItD6yMT8zPUTz-caaRYbZx0ZEQZ/view?usp=drive_link |
 
 | **Caso de Teste** 	| **CT-02 – Filtrar por exercícios e visualizar histórico** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que o usuário filtre por exercícios e visualize seu histórico |
+|	Requisito Associado 	| - A aplicação deve permitir que o usuário filtre por exercícios e visualize seu histórico |
 |Registro de evidência | https://drive.google.com/file/d/1pbi3AyWPrTCyf_rWzXAPB2k76-VJRaC9/view?usp=drive_link |
 
 | **Caso de Teste** 	| **CT-02 – FIltrar receitas baseado no número de calorias** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que o usuário filtre por receitas beseado no número de calorias|
+|	Requisito Associado 	| - A aplicação deve permitir que o usuário filtre por receitas beseado no número de calorias|
 |Registro de evidência | https://drive.google.com/file/d/1gIgt7OC_W5ZabinnGQxfq21N1bkpTubn/view?usp=drive_link |
 
 ## Avaliação
