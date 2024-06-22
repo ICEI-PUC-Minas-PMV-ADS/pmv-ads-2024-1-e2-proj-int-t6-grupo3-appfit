@@ -32,8 +32,8 @@ Por exemplo:
 | Passo 2   | - Realizar o Login e clicar em "Entrar" 
 | Passo 3   | - Na página inicial, clicar em "Exercícios" e depois em "Selecione" e depois em "Concluir", no exercício que o usuário realizar.
 | Passo 4   | - Clicar em "Histórico" 
-Critério de Êxito | - O histórico de exercícios realizados foi visto com sucesso. |
-    |   |
+Critério de Êxito | - O histórico de exercícios realizados foi visto com sucesso. 
+|   |   |
 | Caso de Teste 	| CT-04 – Filtrar por receitas 	|
 |Requisito Associado | - A aplicação deve permitir a filtragem de receitas baseada no número de calorias
 | Objetivo do Teste 	| Verificar se o usuário consegue filtrar por determinado receita baseada no número de calorias. |
