@@ -6,7 +6,7 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 Apresentação inicial
 
-|VÍDEO| https://drive.google.com/file/d/1pbi3AyWPrTCyf_rWzXAPB2k76-VJRaC9/view?usp=drive_link |
+|VÍDEO| https://drive.google.com/file/d/1lV0Mf4M2B021O9OveYHjP4BmrOAtvV-H/view?usp=drive_link |
 ![Slides de introdução](presentation/FITAPP.pdf)
 
 ## Identidade Visual (Marca, Design)
