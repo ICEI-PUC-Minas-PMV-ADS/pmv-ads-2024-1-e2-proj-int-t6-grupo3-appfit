@@ -1,8 +1,6 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+LAYOUT USUAL
+O layout do sistema é fundamental para causar uma boa primeira impressão nos usuários. Nossos testes de usabilidade se concentraram na avaliação da estética e da funcionalidade do design:
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
-
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Os resultados indicam que o layout geral foi considerado simples e fácil de entender, com uma combinação harmoniosa de cores e elementos de design, proporcionando uma experiência visual agradável. Os participantes acharam a disposição dos elementos intuitiva, o que facilitou a localização do conteúdo. No entanto, foi observado que o destaque de elementos-chave pode ser melhorado para guiar os usuários de maneira mais eficaz. Essas descobertas ressaltam a importância de um layout que seja tanto atrativo quanto funcional para criar uma impressão positiva inicial.
